@@ -4,6 +4,8 @@ This Mod adds inserter capacity bonus for normal insertes to 25,50,75,100 and st
 https://mods.factorio.com/mods/DerMistkaefer/BetterInserters/
 
 # Changelog
+1.1.1 - Update to 0.18
+
 1.1.0 - Update to 0.15
 
 1.0.0 - First Release
