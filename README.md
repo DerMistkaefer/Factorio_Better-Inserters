@@ -6,4 +6,4 @@ This Mod adds inserter capacity bonus for normal insertes to 25,50,75,100 and st
 
 ## Changelog
 
-[Factorio Changelog File](../blob/master/changelog.txt)
+[Factorio Changelog File](../master/changelog.txt)
