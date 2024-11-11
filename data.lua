@@ -7,13 +7,13 @@ function BetterInserters_addTechnology(thisName,thisIcon,thisPrerequisites,thisC
 	local obj = util.table.deepcopy(data.raw["technology"]["steel-processing"])
 	obj.name = thisName
 	obj.icon = thisIcon
-	
+
 	obj.effects = {}
 	obj.effects[1] = {type = thisType1, modifier = thisEffect1}
 	obj.effects[2] = {type = thisType2, modifier = thisEffect2}
-	
+
 	obj.prerequisites = thisPrerequisites
-	
+
 	obj.unit.count = thisCount
 	if thisIngredients == 1 then
 		obj.unit.ingredients = {{"automation-science-pack", 1}}
@@ -33,10 +33,10 @@ function BetterInserters_addTechnology(thisName,thisIcon,thisPrerequisites,thisC
 end
 
 
-BetterInserters_addTechnology("inserter-capacity-bonus-8","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-7"},2000,5,45,"c-o-i","stack-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
-BetterInserters_addTechnology("inserter-capacity-bonus-9","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-8"},2000,5,45,"c-o-j","stack-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
-BetterInserters_addTechnology("inserter-capacity-bonus-10","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-9"},2000,5,45,"c-o-k","stack-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
-BetterInserters_addTechnology("inserter-capacity-bonus-11","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-10"},2000,5,45,"c-o-l","stack-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
+BetterInserters_addTechnology("inserter-capacity-bonus-8","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-7"},2000,5,45,"c-o-i","bulk-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
+BetterInserters_addTechnology("inserter-capacity-bonus-9","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-8"},2000,5,45,"c-o-j","bulk-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
+BetterInserters_addTechnology("inserter-capacity-bonus-10","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-9"},2000,5,45,"c-o-k","bulk-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
+BetterInserters_addTechnology("inserter-capacity-bonus-11","__base__/graphics/technology/inserter-capacity.png",{"inserter-capacity-bonus-10"},2000,5,45,"c-o-l","bulk-inserter-capacity-bonus",50,"inserter-stack-size-bonus",25)
 
 
 
